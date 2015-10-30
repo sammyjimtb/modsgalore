@@ -1,6 +1,6 @@
 
 exports.jump = function( player ) {
-  player.motionY = 1;
+  player.motionY = 3;
 };
 
 exports.scraper = function(floors, width) {
@@ -14,3 +14,4 @@ exports.scraper = function(floors, width) {
   }
   d.move('start');
 };
+//hello
